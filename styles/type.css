@@ -19,6 +19,10 @@ button {
 
 input {
     color: var(--midtone);
+    font-family: urbane-rounded, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 10pt;
 }
 
 a {
