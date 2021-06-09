@@ -4,6 +4,31 @@
     box-shadow: -9px 9px 1px var(--box-shadow);
 }
 
+.A:hover {
+    transform: scale(1.02) rotate(-22deg);
+    transition: ease 0.5s;
+}
+
+.B:hover {
+    transform: scale(1.02) rotate(-8deg);
+    transition: ease 0.5s;
+}
+
+.C:hover {
+    transform: scale(1.02) rotate(7deg);
+    transition: ease 0.5s;
+}
+
+.D:hover {
+    transform: scale(1.02) rotate(-10deg);
+    transition: ease 0.5s;
+}
+
+.E:hover {
+    transform: scale(1.02) rotate(4deg);
+    transition: ease 0.5s;
+}
+
 
 
 
