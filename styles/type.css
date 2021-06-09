@@ -1,0 +1,166 @@
+@import "colours.scss";
+
+/* default */
+body {
+    font-family: urbane-rounded, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16pt;
+    color: var(--accentW);
+    line-height: normal;
+}
+
+button {
+    color: var(--midtone);
+    font-family: freude, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input {
+    color: var(--midtone);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+.yellow {
+    color: var(--accentY)
+}
+
+.green {
+    color: var(--highlight)
+}
+
+.dark-green {
+    color: var(--midtone)
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.min-body {
+    font-size: 10pt;
+}
+
+.min-price {
+    font-size: 17pt;
+}
+
+.min-sub {
+    font-size: 12pt;
+}
+
+.small-title {
+    font-size: 24pt;
+}
+
+
+.med-title {
+    font-size: 35pt;
+}
+
+.med-sub {
+    font-size: 20pt;
+}
+
+.large-title {
+    font-size: 78pt;
+}
+
+.large-sub {
+    font-size: 30pt;
+}
+
+.alt {
+    font-family: freude, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+/* HEADER / FOOTER */
+header p {
+    font-weight: 600;
+    font-size: 14pt;
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 14pt;
+}
+
+
+/* HOMEPAGE */
+.splash-title {
+    font-size: 41pt;
+    line-height: 57pt;
+}
+
+.album-small {
+    font-size: 27pt;
+}
+
+
+/* SEARCH */
+.tags-min {
+    font-size: 9pt;
+}
+
+
+/* PRODUCT LISTING */
+.large-price {
+    font-size: 37pt;
+}
+
+.product-description {
+    letter-spacing: 1pt;
+    line-height: 24pt;
+}
+
+.read-more {
+    font-size: 14pt;
+}
+
+
+/* SHOPPING CART */
+.cart-title {
+    font-size: 29pt;
+}
+
+
+/* CHECKOUT */
+.checkout-text {
+    font-size: 17pt;
+}
+
+.checkout-end h2, .cart-end h2 {
+    font-size: 34pt;
+}
+
+.checkout-end h3, .cart-end h3 {
+    font-size: 22pt;
+}
+
+
+/* COMPLETION */
+.confirm-text h1 {
+    font-size: 50pt;
+}
+
+.confirm-text h2 {
+    font-size: 30pt;
+}
+

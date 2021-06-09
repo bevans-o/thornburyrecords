@@ -1,0 +1,16 @@
+@import "colours.scss";
+
+.splash-image {
+    box-shadow: -9px 9px 1px var(--box-shadow);
+}
+
+
+
+
+
+
+/* HEADER / FOOTER */
+header {
+    background-color: var(--background);
+    box-shadow: 5px 0px 16px var(--box-shadow), inset 0em 2em 2em -2em var(--box-shadow);
+}

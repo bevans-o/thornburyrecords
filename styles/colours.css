@@ -1,0 +1,15 @@
+:root {
+    --background: #333E31;
+    --midtone: #486044;
+    --highlight: #6C8B66;
+    --shadow: #333E31;
+    --accentY: #EBD35C;
+    --accentW: #EAEEF3;
+    --box-shadow: rgba(15, 15, 15, .45);
+}
+
+
+/* FIELD */
+body {
+    background-color: var(--background);
+}
