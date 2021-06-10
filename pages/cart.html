@@ -31,38 +31,45 @@
         </div>
     </header>
 
-    <div class="cart-margin flex-column">
+    <div class="cart-margin">
         <div class="shopping-cart">
-            <h2 class="cart-title alt">Your shopping cart</h2><h2 class="cart-title right-align yellow alt">1 item</h2>
-            <div class = "product-small flex-row">
-                <img src="../images/frahm-tripping.jpg" alt="Nils Frahm - Solo">
-                <a href="product.html"><div class = "product-small-text cart-product">
+            <div class="relative">
+                <h2 class="cart-title alt">Your shopping cart</h2><h2 class="cart-title right-align yellow alt overlap">1 item</h2>
+            </div>
+            
+            <div class = "cart-item flex-row flex-center relative">
+                <div class="chisel"></div>
+                <a href="product.html" class="flex-row flex-center">
+                <img class="cart-image shadow-subtle" src="../images/frahm-solo.jpg" alt="Nils Frahm - Solo">
+                <div class = "product-small-text cart-product">
                     <h3 class = "med-title yellow alt">Solo</h3>
                     <h4 class = "med-sub">Nils Frahm</h4>
                 </div></a>
-                <div class="product-counter">
-                    <img src="" alt="">
-                    <p>1</p>
-                    <img src="" alt="">
+                <div class="flex-row flex-center">
+                    <div class="product-counter flex-column flex-center">
+                        <img src="../images/ticker.svg" alt="">
+                        <p id="count1" class="semibold">1</p>
+                        <img id="down-ticker" src="../images/ticker.svg" alt="">
+                    </div>
+                    <h3 class="small-title yellow alt cart-price">$45</h3>
+                    <img class="remove" src="../images/remove.svg" alt="Remove from cart">
                 </div>
-                <h3 class="small-title yellow alt">$45</h3>
-                <img src="" alt="Remove from cart">
             </div>
         </div>
-        <div class="spacer-large"></div>
+        <img class="spacer-large" src="../images/divider.svg" alt="">
         <div class="cart-footer">
             <div><h3 class="small-title yellow alt">More you might like</h3></div>
-            <div class="more-products">
+            <div class="more-products flex-row flex-center">
                 <div class="stacked">
-                    <img class="img-min" src="../images/frahm-tripping.jpg" alt="Nils Frahm - Felt">
+                    <img class="img-min shadow-subtle" src="../images/frahm-felt.jpg" alt="Nils Frahm - Felt">
                     <h4 class="med-sub yellow alt">Felt</h4>
                 </div>
                 <div class="stacked">
-                    <img class="img-min" src="../images/frahm-tripping.jpg" alt="Nils Frahm - Wintermusik">
+                    <img class="img-min shadow-subtle" src="../images/frahm-wintermusik.jpg" alt="Nils Frahm - Wintermusik">
                     <h4 class="med-sub yellow alt">Wintermusik</h4>
                 </div>
                 <div class="stacked">
-                    <img class="img-min" src="../images/frahm-tripping.jpg" alt="Nils Frahm - Empty">
+                    <img class="img-min shadow-subtle" src="../images/frahm-empty.jpg" alt="Nils Frahm - Empty">
                     <h4 class="med-sub yellow alt">Empty</h4>
                 </div>
             </div>

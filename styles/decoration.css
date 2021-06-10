@@ -38,7 +38,14 @@ button:hover {
     top: -21px;
 }
 
-.product-small:hover .chisel, .stacked:hover .chisel {
+.cart-item .chisel {
+    width: 100%;
+    height: 90%;
+    left: 0%;
+    top: 5%;
+}
+
+.product-small:hover .chisel, .stacked:hover .chisel, .cart-item:hover .chisel {
     box-shadow: inset 0.5rem 0.5rem 1rem var(--box-shadow), inset -0.5rem -0.5rem 1rem var(--highlight);
     transition: ease 0.5s;
 }
@@ -78,6 +85,10 @@ button:hover {
 }
 
 
+/* CART */
+.remove:hover, .product-counter img:hover {
+    cursor: pointer;
+}
 
 
 /* LINKS */

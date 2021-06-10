@@ -431,7 +431,7 @@ a > .product-small {
 .overlap {
     position: absolute;
     right: 0;
-    bottom: 0.3rem;
+    bottom: 0;
 }
 
 .product-price {
@@ -451,4 +451,58 @@ a > .product-small {
 
 #stock-text {
     right: 2rem;
+    bottom: 0.3rem;
+}
+
+.img-min {
+    margin-bottom: 4px;
+}
+
+
+
+
+
+
+/* SHOPPING CART */
+.cart-margin {
+    margin: 13rem 17.8rem 10.6rem;
+}
+
+.product-counter img {
+    width: 27px;
+    margin: 10px;
+}
+
+#down-ticker {
+    transform: rotate(180deg);
+}
+
+.cart-title {
+    margin-bottom: 1.3rem;
+}
+
+.cart-image {
+    width: 190px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.spacer-large {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.cart-price {
+    padding-bottom: 0;
+    padding-left: 65px;
+    padding-right: 36px;
+}
+
+.remove {
+    width: 38px;
+    margin-right: 36px;
+}
+
+.cart-footer .more-products {
+    width: 509px;
 }
