@@ -1,5 +1,31 @@
 @import "colours.scss";
 
+
+
+.shadow-subtle {
+    box-shadow: -2px 2px 5px var(--box-shadow);
+}
+
+
+
+/* FRONT PAGE */
+
+.chisel {
+    position: absolute;
+    width: 640px;
+    height: 190px;
+    left: -30px;
+    border-radius: 13px;
+    
+    z-index: -1;
+}
+
+.product-small:hover .chisel {
+    box-shadow: inset 0.5rem 0.5rem 1rem var(--box-shadow), inset -0.5rem -0.5rem 1rem var(--highlight);
+    transition: ease 0.5s;
+}
+
+
 .splash-image {
     box-shadow: -9px 9px 1px var(--box-shadow);
 }

@@ -1,7 +1,11 @@
 @import "colours.scss";
 
+:root {
+    font-size: 12pt;
+}
+
 /* default */
-body {
+body, html {
     font-family: urbane-rounded, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -110,7 +114,7 @@ footer p {
 /* HOMEPAGE */
 .splash-title {
     font-size: 41pt;
-    line-height: 57pt;
+    line-height: 45pt;
 }
 
 .album-small {
