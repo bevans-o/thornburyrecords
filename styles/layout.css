@@ -477,8 +477,8 @@ a > .product-small {
     transform: rotate(180deg);
 }
 
-.cart-title {
-    margin-bottom: 1.3rem;
+.cart-item {
+    margin-top: 1.3rem;
 }
 
 .cart-image {
@@ -509,6 +509,13 @@ a > .product-small {
     margin-right: 36px;
 }
 
+.coupon-input {
+    width: 100%;
+    height: 50px;
+    margin-top: 14px;
+    border-radius: 10px;
+}
+
 .cart-footer {
     align-items: flex-end;
 }
@@ -536,4 +543,26 @@ a > .product-small {
 
 #cart-more-products {
     margin-bottom: 0;
+}
+
+
+
+
+
+
+/* CHECKOUT */
+.checkout-margin {
+    margin: 13rem 15% 10.6rem;
+    width: 330px;
+    flex-wrap: wrap;
+}
+
+.product-min img {
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+}
+
+.checkout-margin .cart-end {
+    width: 330px;
 }

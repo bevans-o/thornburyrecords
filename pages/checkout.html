@@ -31,8 +31,8 @@
         </div>
     </header>
 
-    <div class="checkout-margin flex-row">
-        <div class="payment-details flex-column">
+    <div class="checkout-margin flex-column">
+        <div class="payment-details">
             <p class="alt checkout-text centre">Already have an account?</p>
             <a href=""><button>log in</button></a>
             <p class="yellow alt">Name</p>
@@ -68,7 +68,7 @@
         </div>
 
         <div class="checkout-summary flex-column">
-            <div class="flex-row">
+            <div class="relative">
                 <p class="checkout-text alt">Your shopping cart</p><p class="checkout-text yellow alt right-align">1 item</p>
             </div>
             <div class = "product-min flex-row pad-bottom">
@@ -78,19 +78,21 @@
                     <h4 class = "min-body">Nils Frahm</h4>
                 </div></a>
                 <h3 class="min-price yellow alt">$45</h3>
-                <img src="" alt="Remove from cart">
+                <img src="../images/remove.svg" alt="Remove from cart">
             </div>
             <p class="min-body green right-align">Fusce consequat eu massa vitae gravida. Etiam efficitur volutpat lacus, eu consectetur ligula tristique vel. Nullam vehicula molestie tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut iaculis consectetur porta. Nunc sed lectus fringilla, molestie tellus et, malesuada lorem. Maecenas lobortis dui ipsum, id interdum quam auctor sit amet. </p>
-            <div class="flex-row align-right no-spread">
-                <img src="" alt="Mastercard">
-                <img src="" alt="Visa">
+            <div class="flex-row align-right">
+                <img src="../images/mastercard.svg" alt="Mastercard">
+                <img src="../images/visa.svg" alt="Visa">
             </div>
-            <div class="spacer-large"></div>
-            <div class="checkout-end">
-                <div><h3 class="alt">Subtotal:</h3><h3 class="alt yellow">$45.00</h3></div>
-                <div><h3 class="alt">Shipping:</h3><h3 class="alt yellow">$8.95</h3></div>
-                <div><h3 class="alt">Total:</h3><h2 class="alt yellow cart-total">$53.95</h2></div>
-                <a href="complete.html"><button class="right-align">place order</button></a>
+            <div class="cart-end flex-column">
+                <img class="spacer-small" src="../images/divider.svg" alt="">
+                <table>
+                    <tr><td><h3 class="alt right-align column-space">Subtotal:</h3></td><td><h3 class="alt yellow right-align">$45.00</h3></td></tr>
+                    <tr><td><h3 class="alt right-align column-space">Shipping:</h3></td><td><h3 class="alt yellow right-align">$8.95</h3></td></tr>
+                    <tr><td><h3 class="alt right-align column-space">Total:</h3></td><td><h2 class="alt yellow cart-total right-align">$53.95</h2></td></tr>
+                </table>
+                <a href="checkout.html"><button class="right-align">proceed to checkout</button></a>
             </div>
         </div>
     </div>
