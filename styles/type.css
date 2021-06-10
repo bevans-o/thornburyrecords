@@ -9,7 +9,7 @@ body, html {
     font-family: urbane-rounded, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 16pt;
+    font-size: 12pt;
     color: var(--accentW);
     line-height: normal;
 }
@@ -58,36 +58,36 @@ a:visited {
 }
 
 .min-body {
-    font-size: 10pt;
+    font-size: 9pt;
 }
 
 .min-price {
-    font-size: 17pt;
+    font-size: 15pt;
 }
 
 .min-sub {
-    font-size: 12pt;
+    font-size: 10pt;
 }
 
 .small-title {
-    font-size: 24pt;
+    font-size: 21pt;
 }
 
 
 .med-title {
-    font-size: 35pt;
+    font-size: 32pt;
 }
 
 .med-sub {
-    font-size: 20pt;
+    font-size: 18pt;
 }
 
 .large-title {
-    font-size: 78pt;
+    font-size: 70pt;
 }
 
 .large-sub {
-    font-size: 30pt;
+    font-size: 26pt;
 }
 
 .alt {
@@ -102,29 +102,29 @@ a:visited {
 /* HEADER / FOOTER */
 header p {
     font-weight: 600;
-    font-size: 14pt;
+    font-size: 11pt;
 }
 
 footer p {
     font-weight: 300;
-    font-size: 14pt;
+    font-size: 11pt;
 }
 
 
 /* HOMEPAGE */
 .splash-title {
-    font-size: 41pt;
-    line-height: 45pt;
+    font-size: 36pt;
+    line-height: 40pt;
 }
 
 .album-small {
-    font-size: 27pt;
+    font-size: 21pt;
 }
 
 
 /* SEARCH */
 .tags-min {
-    font-size: 9pt;
+    font-size: 8pt;
 }
 
 
@@ -135,7 +135,7 @@ footer p {
 
 .product-description {
     letter-spacing: 1pt;
-    line-height: 24pt;
+    line-height: 18pt;
 }
 
 .read-more {
@@ -145,21 +145,21 @@ footer p {
 
 /* SHOPPING CART */
 .cart-title {
-    font-size: 29pt;
+    font-size: 24pt;
 }
 
 
 /* CHECKOUT */
 .checkout-text {
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 .checkout-end h2, .cart-end h2 {
-    font-size: 34pt;
+    font-size: 28pt;
 }
 
 .checkout-end h3, .cart-end h3 {
-    font-size: 22pt;
+    font-size: 16pt;
 }
 
 
@@ -169,6 +169,6 @@ footer p {
 }
 
 .confirm-text h2 {
-    font-size: 30pt;
+    font-size: 25pt;
 }
 
