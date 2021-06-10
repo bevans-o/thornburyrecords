@@ -140,15 +140,63 @@
 
     /* CHECKOUT */
     .checkout-margin {
+        width: auto;
         max-height: none;
+        margin-left: 3%;
+        margin-right: 6%;
+    }
+
+    .checkout-margin > * {
+        width: 90vw;
+        max-width: 800px;
     }
 
     .payment-details {
         margin-right: 0;
+        padding-bottom: 120px;
     }
     
     .checkout-summary {
         margin-left: 0;
+    }
+
+    .space-together {
+        justify-content: center;
+    }
+
+    #continue-wo-signin {
+        margin-left:15px;
+    }
+
+
+
+
+
+
+
+    /* CONFIRMATION */
+    .complete-margin {
+        display: block;
+        position: relative;
+        width: auto;
+        margin-left: 3%;
+        margin-right: 6%;
+        background-image: url(../images/check-large.svg);
+        background-repeat: no-repeat;
+        background-size: 50vh;
+        background-position-x: 20vw;
+        background-position-y: 10vh;
+    }
+
+    .confirm-text {
+        position: absolute;
+    }
+
+    .confirm-cart {
+        position: static;
+        top: unset;
+        left: unset;
+        max-width: 800px;
     }
 
 }
