@@ -57,29 +57,33 @@
             </div>
         </div>
         <img class="spacer-large" src="../images/divider.svg" alt="">
-        <div class="cart-footer">
-            <div><h3 class="small-title yellow alt">More you might like</h3></div>
-            <div class="more-products flex-row flex-center">
-                <div class="stacked">
-                    <img class="img-min shadow-subtle" src="../images/frahm-felt.jpg" alt="Nils Frahm - Felt">
-                    <h4 class="med-sub yellow alt">Felt</h4>
-                </div>
-                <div class="stacked">
-                    <img class="img-min shadow-subtle" src="../images/frahm-wintermusik.jpg" alt="Nils Frahm - Wintermusik">
-                    <h4 class="med-sub yellow alt">Wintermusik</h4>
-                </div>
-                <div class="stacked">
-                    <img class="img-min shadow-subtle" src="../images/frahm-empty.jpg" alt="Nils Frahm - Empty">
-                    <h4 class="med-sub yellow alt">Empty</h4>
+        <div class="cart-footer flex-row flex-center">
+            <div>
+                <div><h3 class="small-title yellow alt">More you might like</h3></div>
+                <div id="cart-more-products" class="more-products flex-row flex-center">
+                    <div class="stacked">
+                        <img class="img-min shadow-subtle" src="../images/frahm-felt.jpg" alt="Nils Frahm - Felt">
+                        <h4 class="med-sub yellow alt">Felt</h4>
+                    </div>
+                    <div class="stacked">
+                        <img class="img-min shadow-subtle" src="../images/frahm-wintermusik.jpg" alt="Nils Frahm - Wintermusik">
+                        <h4 class="med-sub yellow alt">Wintermusik</h4>
+                    </div>
+                    <div class="stacked">
+                        <img class="img-min shadow-subtle" src="../images/frahm-empty.jpg" alt="Nils Frahm - Empty">
+                        <h4 class="med-sub yellow alt">Empty</h4>
+                    </div>
                 </div>
             </div>
-            <div class="cart-end">
+            <div class="cart-end flex-column">
                 <h3 class="small-title yellow alt right-align">Coupon or Gift Code</h3>
                 <input type="text">
-                <div class="spacer-small"></div>
-                <div><h3 class="alt">Subtotal:</h3><h3 class="alt yellow">$45.00</h3></div>
-                <div><h3 class="alt">Shipping:</h3><h3 class="alt yellow">$8.95</h3></div>
-                <div><h3 class="alt">Total:</h3><h2 class="alt yellow cart-total">$53.95</h2></div>
+                <img class="spacer-small" src="../images/divider.svg" alt="">
+                <table>
+                    <tr><td><h3 class="alt right-align column-space">Subtotal:</h3></td><td><h3 class="alt yellow right-align">$45.00</h3></td></tr>
+                    <tr><td><h3 class="alt right-align column-space">Shipping:</h3></td><td><h3 class="alt yellow right-align">$8.95</h3></td></tr>
+                    <tr><td><h3 class="alt right-align column-space">Total:</h3></td><td><h2 class="alt yellow cart-total right-align">$53.95</h2></td></tr>
+                </table>
                 <a href="checkout.html"><button class="right-align">proceed to checkout</button></a>
             </div>
         </div>

@@ -492,6 +492,12 @@ a > .product-small {
     margin-bottom: 4rem;
 }
 
+.spacer-small {
+    width: 66%;
+    margin-top: 2.875rem;
+    position: relative;
+}
+
 .cart-price {
     padding-bottom: 0;
     padding-left: 65px;
@@ -503,6 +509,31 @@ a > .product-small {
     margin-right: 36px;
 }
 
+.cart-footer {
+    align-items: flex-end;
+}
+
 .cart-footer .more-products {
     width: 509px;
+}
+
+.cart-footer .small-title {
+    padding: 0;
+}
+
+.cart-end {
+    align-items: flex-end;
+}
+
+.cart-end table {
+    margin-top: 31px;
+    margin-bottom: 43px;
+}
+
+.column-space {
+    margin-right: 33px;
+}
+
+#cart-more-products {
+    margin-bottom: 0;
 }
