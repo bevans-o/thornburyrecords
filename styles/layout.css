@@ -32,7 +32,7 @@ html, body {
     justify-content: space-between;
 }
 
-.no-break, .no-break p {
+.no-break, .no-break p, .no-break h3 {
     display: inline;
 }
 
@@ -362,6 +362,7 @@ a > .product-small {
 }
 
 .stacked {
+    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -377,3 +378,77 @@ a > .product-small {
     margin-bottom: 6rem;
 }
 
+
+
+
+
+
+/* PRODUCT LISTING */
+.product-image img {
+    width: 50%;
+    padding-top: 60px;
+    position: fixed;
+}
+
+#gapfiller {
+    padding-top: 960px;
+}
+
+.product-details {
+    margin-left: 53.5%;
+    padding: 8.4% 11.5% 12% 8%;
+
+}    
+
+.product-details > * {
+    width: 100%;
+}
+
+.product-details h1 {
+    height: 5.5rem;
+}
+
+.product-details button {
+    width: 80%;
+    margin: 3.5rem 10% 3rem;
+    padding: 0.8rem 8rem;
+}
+
+.more-details {
+    margin-top: 55px;
+}
+
+.more-products {
+    margin-top: 18px;
+    margin-bottom: 55px;
+}
+
+.more-products .stacked img {
+    width: 159px;
+    border-radius: 13px;
+}
+
+.overlap {
+    position: absolute;
+    right: 0;
+    bottom: 0.3rem;
+}
+
+.product-price {
+    padding-bottom: 2.4rem;
+}
+
+.tracklist table {
+    width: 100%;
+    margin-bottom: 55px;
+}
+
+#stock-check {
+    right: 0rem;
+    bottom: 0.8rem;
+    width: 20px;
+}
+
+#stock-text {
+    right: 2rem;
+}

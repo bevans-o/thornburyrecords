@@ -33,24 +33,27 @@
 
     <div class="product-margin">
         <div class="product-image">
-            <img src="../images/frahm-tripping.jpg" alt="Nils Frahm - Solo">
+            <img src="../images/frahm-solo.jpg" alt="Nils Frahm - Solo">
+            <img id="gapfiller" src="../images/frahm-solo.jpg" alt="Nils Frahm - Solo">
         </div>
-        <div class="product-details">
+        <div class="product-details flex-column flex-center">
             <div>
-                <h1 class="large-title yellow alt">Solo</h1>
-                <h2 class="large-price yellow alt">$45</h2>
-                <h3 class="large-sub semibold">Nils Frahm</h3>
-                <h3 class="med-sub semibold">In stock</h3>
-                <img src="" alt="">
-                <a href="cart.html"><button>add to cart</button></a>
+                <div class="relative">
+                    <h1 class="large-title yellow alt">Solo</h1>
+                    <h2 class="product-price large-price yellow alt right-align overlap">$45</h2>
+                    <h3 class="large-sub semibold">Nils Frahm</h3>
+                    <h3 id="stock-text" class="med-sub semibold right-align overlap">in stock</h3>
+                    <img id="stock-check" class="overlap" src="../images/check-small.svg" alt="">
+                </div>
+                <a href="../pages/cart.html"><button>add to cart</button></a>
                 <p class="product-description">Sometimes solo piano albums can get too sentimental, and can begin to sound like bad TV cues; sometimes they can be a little dry and academic, and can come over like an instrumental exercise. This one mostly fits into "just right" territory, balancing general loveliness with space and suggestion. Frahm's piano is creaky and there's a percussive tone coursing through some of these tracks, an extra "pling" that marks time with every keystroke. That extra texture gives a piece like "Merry" a tiny bit of grit to offset a gorgeous melody that might otherwise be overbearing, and gives the more downcast "Some" an extra ounce of dark weight. During its best moments Solo brings to mind some of the lower-stakes work of Harold Budd, where melody and mood become two sides of the same coin.</p>
                 <div class="text-fade"></div>
                 <p class="read-more yellow right-align">read more</p>
             </div>
 
-            <div>
-                <div><h3 class="small-title yellow alt">More from</h3><a href=""><h3 class="small-title alt">Nils Frahm</h3></a></div>
-                <div class="more-products">
+            <div class="more-details">
+                <div class="no-break"><h3 class="small-title yellow alt">More from</h3><a href=""><h3 class="small-title alt link"> Nils Frahm</h3></a></div>
+                <div class="more-products flex-row flex-center">
                     <div class="stacked">
                         <img class="img-min" src="../images/frahm-tripping.jpg" alt="Nils Frahm - Felt">
                         <h4 class="med-sub yellow alt">Felt</h4>
@@ -83,11 +86,11 @@
 
             <div>
                 <h3 class="small-title yellow alt">Product Details</h3>
-                <p class="yellow semibold">Format:</p><p>Vinyl LP</p>
-                <p class="yellow semibold">Condition:</p><p>New</p>
-                <p class="yellow semibold">Release Date:</p><p>March 29, 2015</p>
-                <p class="yellow semibold">Label:</p><p>Erased Tapes</p>
-                <p class="yellow semibold">Product ID:</p><p>804211985402</p>
+                <span class="yellow semibold">Format:</span><span> Vinyl LP</span><br>
+                <span class="yellow semibold">Condition:</span><span> New</span><br>
+                <span class="yellow semibold"> Release Date:</span><span> March 29, 2015</span><br>
+                <span class="yellow semibold">Label:</span><span> Erased Tapes</span><br>
+                <span class="yellow semibold">Product ID:</span><span> 804211985402</span><br>
                 <p>Includes Digital Download</p>
             </div>
 
