@@ -566,3 +566,25 @@ a > .product-small {
 .checkout-margin .cart-end {
     width: 330px;
 }
+
+
+
+
+
+
+/* CONFIRMATION */
+.confirm-background {
+    position: absolute;
+    left: 15%;
+    top: 11%;
+    z-index: -10;
+}
+
+.complete-margin {
+    height: 84vh;
+}
+
+.confirm-text {
+    margin-top: 20%;
+    padding-left: 3.5%;
+}
