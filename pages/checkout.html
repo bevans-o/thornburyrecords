@@ -31,7 +31,7 @@
         </div>
     </header>
 
-    <div class="checkout-margin flex-column">
+    <div class="checkout-margin flex-column flex-center">
         <div class="payment-details">
             <p class="alt checkout-text centre">Already have an account?</p>
             <a href=""><button>log in</button></a>
@@ -43,8 +43,27 @@
             <input type="text">
             <p class="yellow alt">Confirm Password</p>
             <input type="text">
-            <p class="alt checkout-text centre">or continue without signing in</p>
-            <input type="checkbox">
+            <div class="flex-row flex-center">
+                <p class="alt checkout-text centre">or continue without signing in</p>
+                <div id="continue-wo-signin" class="checkbox relative">
+                    <img id="checkmark" src="../images/checkmark.svg" alt="">
+                </div>
+            </div>
+            
+            <script>
+                document.getElementById('continue-wo-signin').onclick = function() {
+                    if (document.getElementById('checkmark').style.display == 'none') {
+                        document.getElementById('checkmark').style.display = 'inline'
+                    }
+
+                    else {
+                        document.getElementById('checkmark').style.display = 'none'
+                    }
+                }
+            </script>
+        </div>
+
+        <div class="payment-details">
             <p class="yellow alt pad-bottom">Name</p>
             <input type="text">
             <p class="yellow alt">Address Line 1</p>
@@ -67,32 +86,36 @@
             <input type="text">
         </div>
 
-        <div class="checkout-summary flex-column">
+        <div class="checkout-summary">
             <div class="relative">
                 <p class="checkout-text alt">Your shopping cart</p><p class="checkout-text yellow alt right-align">1 item</p>
             </div>
-            <div class = "product-min flex-row pad-bottom">
-                <img src="../images/frahm-tripping.jpg" alt="Nils Frahm - Solo">
-                <a href="product.html"><div class = "product-small-text cart-product">
-                    <h3 class = "yellow alt">Solo</h3>
-                    <h4 class = "min-body">Nils Frahm</h4>
-                </div></a>
-                <h3 class="min-price yellow alt">$45</h3>
-                <img src="../images/remove.svg" alt="Remove from cart">
+            <div class = "product-min flex-row flex-center pad-bottom">
+                <div class="flex-row flex-center">
+                    <img class="min-image" src="../images/frahm-solo.jpg" alt="Nils Frahm - Solo">
+                    <a href="product.html"><div class = "product-min-text">
+                        <h3 class = "yellow alt">Solo</h3>
+                        <h4 class = "min-body">Nils Frahm</h4>
+                    </div></a>
+                </div>
+                <div class="flex-row flex-center">
+                    <h3 class="min-price yellow alt">$45</h3>
+                    <img class="remove" src="../images/remove.svg" alt="Remove from cart">
+                </div>
             </div>
-            <p class="min-body green right-align">Fusce consequat eu massa vitae gravida. Etiam efficitur volutpat lacus, eu consectetur ligula tristique vel. Nullam vehicula molestie tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut iaculis consectetur porta. Nunc sed lectus fringilla, molestie tellus et, malesuada lorem. Maecenas lobortis dui ipsum, id interdum quam auctor sit amet. </p>
-            <div class="flex-row align-right">
+            <p class="min-body green right-align pad-bottom">Fusce consequat eu massa vitae gravida. Etiam efficitur volutpat lacus, eu consectetur ligula tristique vel. Nullam vehicula molestie tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut iaculis consectetur porta. Nunc sed lectus fringilla, molestie tellus et, malesuada lorem. Maecenas lobortis dui ipsum, id interdum quam auctor sit amet. </p>
+            <div class="flex-row right-align">
                 <img src="../images/mastercard.svg" alt="Mastercard">
                 <img src="../images/visa.svg" alt="Visa">
             </div>
             <div class="cart-end flex-column">
-                <img class="spacer-small" src="../images/divider.svg" alt="">
+                <img class="checkout-spacer" src="../images/divider-small.svg" alt="">
                 <table>
                     <tr><td><h3 class="alt right-align column-space">Subtotal:</h3></td><td><h3 class="alt yellow right-align">$45.00</h3></td></tr>
                     <tr><td><h3 class="alt right-align column-space">Shipping:</h3></td><td><h3 class="alt yellow right-align">$8.95</h3></td></tr>
                     <tr><td><h3 class="alt right-align column-space">Total:</h3></td><td><h2 class="alt yellow cart-total right-align">$53.95</h2></td></tr>
                 </table>
-                <a href="checkout.html"><button class="right-align">proceed to checkout</button></a>
+                <a href="../pages/complete.html"><button>complete order</button></a>
             </div>
         </div>
     </div>

@@ -15,6 +15,7 @@ html, body {
 
 .right-align {
     text-align: right;
+    justify-content: flex-end;
 }
 
 .flex-row {
@@ -260,7 +261,7 @@ a > .product-small {
 
 .product-small-text {
     padding-left: 40px;
-    width: 380px;
+    max-width: 380px;
 }
 
 
@@ -555,17 +556,71 @@ a > .product-small {
     margin: 13rem 15% 10.6rem;
     width: 330px;
     flex-wrap: wrap;
+    max-height: 80vh;
 }
 
-.product-min img {
+.checkout-margin > * {
+    width: 330px;
+}
+
+.checkout-margin button {
+    width: 90%;
+    margin: 3.5rem 5% 3rem;
+    padding: 0.8rem 8rem;
+}
+
+.payment-details {
+    margin-right: 138px;
+}
+
+.checkout-summary {
+    margin-left: 68px;
+}
+
+.checkout-summary .remove {
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+.min-image {
     width: 85px;
     height: 85px;
     border-radius: 10px;
 }
 
-.checkout-margin .cart-end {
-    width: 330px;
+.product-min-text {
+    padding-left: 14px;
 }
+
+.checkout-spacer {
+    margin-top: 76px;
+}
+
+.checkout-margin input {
+    width: 100%;
+    height: 43px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--accentW);
+    box-shadow: inset 0px 5px 6px 0px var(--box-shadow);
+    padding-left: 1em;
+}
+
+.checkbox {
+    width: 23px;
+    height: 23px;
+    border-radius: 9px;
+    border: 4px solid var(--highlight);
+}
+
+#checkmark {
+    position: absolute;
+    left: -0.7rem;
+    top: -0.45rem;
+}
+
+.
+
 
 
 

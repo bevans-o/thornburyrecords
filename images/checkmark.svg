@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.849" height="42.1" viewBox="0 0 48.849 42.1">
+  <defs>
+    <filter id="Icon_metro-checkmark" x="0" y="0" width="48.849" height="42.1" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_metro-checkmark)">
+    <path id="Icon_metro-checkmark-2" data-name="Icon metro-checkmark" d="M28.6,5.784l-14.46,14.46L7.391,13.5l-4.82,4.82L14.139,29.885,33.419,10.6Z" transform="translate(6.43 0.22)" fill="#ebd35c"/>
+  </g>
+</svg>
