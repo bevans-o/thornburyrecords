@@ -691,3 +691,14 @@ a > .product-small {
     margin-top: 20%;
     padding-left: 3.5%;
 }
+
+.confirm-cart {
+    position: absolute;
+    width: 326;
+    left: 67.6%;
+    top: 63.1%;
+}
+
+.confirmed-item {
+    padding-right: 117px;
+}
