@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "../styles/stylesheets.css"/>
+    <link rel = "stylesheet" href = "styles/stylesheets.css"/>
     <title>Thornbury Records</title>
     <!-- FONT IMPORT -->
     <link rel="stylesheet" href="https://use.typekit.net/clt2ggr.css">
@@ -12,8 +12,8 @@
 <body>
     <!-- HEADER -->
     <header class="flex-row">
-        <div class = "header-left flex-row flex-center">
-            <a href="index.html"><img class="logo" src="../images/logo.svg" alt="Thornbury Records"></a>
+        <div class = "header-left flex-row flex-center desktop">
+            <a href="../index.html"><img class="logo" src="../images/logo.svg" alt="Thornbury Records"></a>
             <div>
                 <a href=""><p>all records</p></a>
             </div>
@@ -23,21 +23,28 @@
         </div>
         <div class = "header-right flex-row flex-center">
             <a href="../pages/product.html"><img src="../images/random.svg" alt="Random Album"></a>
-            <a href="index.html"><img src="../images/login.svg" alt="Login"></a>
+            <a href="../index.html"><img src="../images/login.svg" alt="Login"></a>
+            <a class="mobile" href="../index.html"><img id="logo" src="../images/logo-small.svg" alt="Logo"></a>
             <a href="../pages/cart.html"><img src="../images/cart.svg" alt="Cart"></a>
-            <a href="../pages/index.html"><img src="../images/account.svg" alt="Account"></a>
+            <a class="desktop" href="../index.html"><img src="../images/account.svg" alt="Account"></a>
             <a href="../pages/search.html"><img src="../images/search-light.svg" alt="Search"></a>
-            <input class="search-small" type="search">
+            <input class="desktop search-small" type="search">
         </div>
     </header>
 
+    <div class="mobile relative">
+        <div class="mobile-head"></div>
+        <img src="images/logo.svg" alt="Thornbury Records">
+        
+    </div>
+
     <div class= "home-margin">
         <!-- SPLASH -->
-        <div class="mobile-background mobile"><img src="" alt=""></div>
+        
         <div class = "flex-column splash-left">
             <div class = "splash-search">
                 <h1 class = "splash-title alt">Melbourne's home of <br> vinyl and turntable repair.</h1>
-                <h3 class = "small-title semibold yellow">Search thousands of vinyl records.</h3>
+                <h3 class = "desktop small-title semibold yellow">Search thousands of vinyl records.</h3>
                 <input class="search-med" type="search">
             </div>
             <div class = "new-releases">
@@ -63,21 +70,23 @@
             </div>
         </div>
 
-        <a href=""><img class = "splash-background" src="../images/splash.svg" alt=""></a>
+        <div class="desktop">
+            <a href=""><img class = "splash-background" src="../images/splash.svg" alt=""></a>
 
-        <a href="../pages/product.html"><img class = "splash-image A" src="../images/jacklin-crushing.webp" alt="Julia Jacklin - Crushing"></a>
-        <a href="../pages/product.html"><img class = "splash-image B" src="../images/foxes-shore.jpeg" alt="Fleet Foxes - Shore"></a>
-        <a href="../pages/product.html"><img class = "splash-image C" src="../images/thief-masterpiece.jpg" alt="Big Thief - Masterpiece"></a>
-        <a href="../pages/product.html"><img class = "splash-image D" src="../images/radiohead-amnesiac.jpg" alt="Radiohead - Amnesiac"></a>
-        <a href="../pages/product.html"><img class = "splash-image E" src="../images/BBNG-III.jpg" alt="BADBADNOTGOOD - III"></a>
-        
+            <a href="../pages/product.html"><img class = "splash-image A" src="../images/jacklin-crushing.webp" alt="Julia Jacklin - Crushing"></a>
+            <a href="../pages/product.html"><img class = "splash-image B" src="../images/foxes-shore.jpeg" alt="Fleet Foxes - Shore"></a>
+            <a href="../pages/product.html"><img class = "splash-image C" src="../images/thief-masterpiece.jpg" alt="Big Thief - Masterpiece"></a>
+            <a href="../pages/product.html"><img class = "splash-image D" src="../images/radiohead-amnesiac.jpg" alt="Radiohead - Amnesiac"></a>
+            <a href="../pages/product.html"><img class = "splash-image E" src="../images/BBNG-III.jpg" alt="BADBADNOTGOOD - III"></a>
+        </div>
+               
 
         <!-- FEATURED -->
         <div class = "featured">
             <div class="flex-row flex-center">
                 <div class = "sales-bundles">
                     <h2 class="small-title alt">Sales and Bundles</h2>
-                    <a href=""><div class = "product-small flex-row">
+                    <a href="pages/product.html"><div class = "product-small flex-row">
                         <div class="chisel"></div>
                         <div class="bundle">
                             <img class="shadow-subtle" src="../images/davis-bitches.jpg" alt="Miles Davis - Bitches Brew">

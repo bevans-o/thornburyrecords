@@ -1,24 +1,28 @@
+.mobile {
+    display: none;
+}
 
-/* HELPER CLASSES */
+
+/* ATOMIC HELPER CLASSES */
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
 
 .pad-right {
-    padding-right: 2em;
+    padding-right: 2rem;
 }
 
 .pad-bottom {
-    padding-bottom: 21px;
+    padding-bottom: 1.3rem;
 }
 
 .marg-bottom {
-    margin-bottom: 18px;
+    margin-bottom: 1.125rem;
 }
 
 .double-marg-bottom {
-    margin-bottom: 48px;
+    margin-bottom: 2.5rem;
 }
 
 .right-align {
@@ -177,10 +181,6 @@ footer > img {
     margin-right: 11.5%;
 }
 
-.mobile {
-    display: none;
-}
-
 .splash-left {
     width: 50%;
 }
@@ -265,9 +265,6 @@ footer > img {
 .product-small {
     align-items: center;
     position: relative;
-}
-
-a > .product-small {
     padding-bottom: 30px;
 }
 

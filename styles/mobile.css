@@ -1,0 +1,154 @@
+@media (max-width: 1800px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+
+
+
+    /* TYPE SCALING */
+    footer p {
+        font-size: 10pt;
+    }
+
+    .splash-title {
+        font-size: 10pt;
+        line-height: normal;
+    }
+
+
+
+
+
+    /* HEADER / FOOTER */
+    header {
+        height: 120px;
+        top: unset;
+        bottom: 0;
+        background-image: url(../images/mobile-menu.svg);
+        background-color: rgba(0,0,0,0);
+        box-shadow: none;
+        align-items: flex-end;
+    }
+    
+    .header-right {
+        width: 100%;
+        position: static;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .header-right img {
+        margin-left: 0;
+        margin-right: 0;
+        width: 20px;
+        padding-top: 0;
+        padding-bottom: 20px;
+        
+    }
+    
+    #logo {
+        height: 65px;
+        width: 65px;
+        padding-left: 0;
+        padding-bottom: 0px;
+        margin-bottom: 30px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-nav {
+        left: unset;
+        width: auto;
+        padding: 0;
+        margin: 0;
+        margin-top: 100px;
+        left: 51%;
+        transform: translateX(-50%);
+    }
+
+    .footer-nav > * {
+        display: block;
+        margin-bottom: 35px;
+    }
+
+    .footer-nav p {
+        margin: 0;
+    }
+
+    footer > img{
+        position: absolute;
+        left: -10%;
+        transform: scaleY(2);
+    }
+
+    .footer-social {
+        width: auto;
+        padding: 0;
+        margin: 0;
+        top: 320px;
+        left: 51%;
+        transform: translateX(-50%);
+    }
+
+
+
+
+
+
+    /* HOME PAGE */
+    .mobile-head {
+        position: absolute;
+        top: -105px;
+        left: -118px;
+        width: 664px;
+        height: 260px;
+        background-image: url(../images/mobile-head-background.svg);
+    }
+
+    .mobile-head + img {
+        position: absolute;
+        left: 50%;
+        top: 180px;
+        transform: translateX(-50%);
+    }
+
+    .home-margin {
+        width: 100vw;
+        margin-top: 280px;
+        margin-left: 8.5%;
+        margin-right: 8.5%;
+    }
+
+    .splash-left {
+        width: inherit;
+    }
+
+
+
+
+    
+
+
+    /* CHECKOUT */
+    .checkout-margin {
+        max-height: none;
+    }
+
+    .payment-details {
+        margin-right: 0;
+    }
+    
+    .checkout-summary {
+        margin-left: 0;
+    }
+
+}
