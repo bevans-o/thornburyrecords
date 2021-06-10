@@ -12,7 +12,7 @@
 <body>
     <!-- HEADER -->
     <header class="flex-row">
-        <div class = "header-left flex-row">
+        <div class = "header-left flex-row flex-center">
             <a href="../pages/index.html"><img class="logo" src="../images/logo.svg" alt="Thornbury Records"></a>
             <div>
                 <a href=""><p>all records</p></a>
@@ -21,7 +21,7 @@
                 <a href=""><p>records by category</p></a>
             </div>
         </div>
-        <div class = "header-right flex-row">
+        <div class = "header-right flex-row flex-center">
             <a href="../pages/product.html"><img src="../images/random.svg" alt="Random Album"></a>
             <a href="../pages/index.html"><img src="../images/login.svg" alt="Login"></a>
             <a href="../pages/cart.html"><img src="../images/cart.svg" alt="Cart"></a>
@@ -33,18 +33,24 @@
 
     <div class="checkout-margin flex-column flex-center">
         <div class="payment-details">
-            <p class="alt checkout-text centre">Already have an account?</p>
-            <a href=""><button>log in</button></a>
+            <div>
+                <div class="flex-column flex-center">
+                    <p class="alt checkout-text">Already have an account?</p>
+                </div>
+                <a href=""><button>log in</button></a>
+            </div>
+            
+            
             <p class="yellow alt">Name</p>
-            <input type="text">
+            <input class="marg-bottom" type="text">
             <p class="yellow alt">Email</p>
-            <input type="text">
+            <input class="marg-bottom" type="text">
             <p class="yellow alt">Password</p>
             <input type="text">
             <p class="yellow alt">Confirm Password</p>
-            <input type="text">
-            <div class="flex-row flex-center">
-                <p class="alt checkout-text centre">or continue without signing in</p>
+            <input class="marg-bottom" type="text">
+            <div class="flex-row flex-center space-together">
+                <p class="alt checkout-text">or continue without signing in</p>
                 <div id="continue-wo-signin" class="checkbox relative">
                     <img id="checkmark" src="../images/checkmark.svg" alt="">
                 </div>
@@ -64,31 +70,44 @@
         </div>
 
         <div class="payment-details">
-            <p class="yellow alt pad-bottom">Name</p>
-            <input type="text">
+            <p class="yellow alt">Name</p>
+            <input class="marg-bottom" type="text">
             <p class="yellow alt">Address Line 1</p>
             <input type="text">
-            <p class="yellow alt pad-bottom">Address Line 2</p>
-            <input type="text">
-            <p class="yellow alt halfsize">State</p>
-            <input type="text">
-            <p class="yellow alt halfsize">Postcode</p>
-            <input type="text">
-            <p class="yellow alt pad-bottom">Country</p>
-            <input type="text">
+            <p class="yellow alt">Address Line 2</p>
+            <input class="marg-bottom" type="text">
+            <div class="halfsize">
+                <div>
+                    <p class="yellow alt">State</p>
+                    <input type="text">
+                </div>
+                <div>
+                    <p class="yellow alt">Postcode</p>
+                    <input type="text">
+                </div>
+            </div>
+            <p class="yellow alt">Country</p>
+            <input class="double-marg-bottom" type="text">
             <p class="yellow alt">Name on Card</p>
             <input type="text">
             <p class="yellow alt">Credit Card Number</p>
             <input type="text">
-            <p class="yellow alt halfsize">Expiry</p>
-            <input type="text">
-            <p class="yellow alt halfsize">CVV</p>
-            <input type="text">
+            <div class="halfsize">
+                <div>
+                    <p class="yellow alt">Expiry</p>
+                    <input type="text">
+                </div>
+                <div>
+                    <p class="yellow alt">CVV</p>
+                    <input type="text">
+                </div>
+            </div>
+            
         </div>
 
         <div class="checkout-summary">
             <div class="relative">
-                <p class="checkout-text alt">Your shopping cart</p><p class="checkout-text yellow alt right-align">1 item</p>
+                <p class="checkout-text alt">Your shopping cart</p><p class="checkout-text yellow alt right-align overlap">1 item</p>
             </div>
             <div class = "product-min flex-row flex-center pad-bottom">
                 <div class="flex-row flex-center">
@@ -115,7 +134,10 @@
                     <tr><td><h3 class="alt right-align column-space">Shipping:</h3></td><td><h3 class="alt yellow right-align">$8.95</h3></td></tr>
                     <tr><td><h3 class="alt right-align column-space">Total:</h3></td><td><h2 class="alt yellow cart-total right-align">$53.95</h2></td></tr>
                 </table>
-                <a href="../pages/complete.html"><button>complete order</button></a>
+                <div class="complete-order">
+                    <a href="../pages/complete.html"><button>place order</button></a>
+                </div>
+                
             </div>
         </div>
     </div>

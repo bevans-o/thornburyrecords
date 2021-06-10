@@ -13,6 +13,14 @@ html, body {
     padding-bottom: 21px;
 }
 
+.marg-bottom {
+    margin-bottom: 18px;
+}
+
+.double-marg-bottom {
+    margin-bottom: 48px;
+}
+
 .right-align {
     text-align: right;
     justify-content: flex-end;
@@ -31,6 +39,10 @@ html, body {
 .flex-center {
     align-items: center;
     justify-content: space-between;
+}
+
+.space-together {
+    justify-content: space-around;
 }
 
 .no-break, .no-break p, .no-break h3 {
@@ -553,7 +565,7 @@ a > .product-small {
 
 /* CHECKOUT */
 .checkout-margin {
-    margin: 13rem 15% 10.6rem;
+    margin: 8rem 15% 12rem;
     width: 330px;
     flex-wrap: wrap;
     max-height: 80vh;
@@ -563,10 +575,10 @@ a > .product-small {
     width: 330px;
 }
 
-.checkout-margin button {
-    width: 90%;
-    margin: 3.5rem 5% 3rem;
-    padding: 0.8rem 8rem;
+.payment-details button {
+    width: 95%;
+    margin: 0.7rem 5% 3rem;
+    padding: 0.5rem 0rem;
 }
 
 .payment-details {
@@ -619,8 +631,44 @@ a > .product-small {
     top: -0.45rem;
 }
 
-.
+.payment-details p {
+    margin-bottom: 3px;
+    margin-top: 13px;
+}
 
+.payment-details p.checkout-text {
+    margin: 0;
+}
+
+.product-min {
+    margin-top: 27px;
+}
+
+.checkout-margin > :first-child, .checkout-margin > :last-child {
+    margin-top: 65px;
+}
+
+.halfsize {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    column-gap: 10px;
+}
+
+.halfsize :nth-child(1) input {
+    width: 90%;
+}
+
+.complete-order {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.complete-order button {
+    width: 100%;
+    margin: 0;
+    padding: 0.7rem 0;
+}
 
 
 
