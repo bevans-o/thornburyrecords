@@ -1,6 +1,10 @@
 @import "colours.scss";
 
 /* GENERAL */
+a {
+    color: var(--accentW);
+}
+
 .shadow-subtle {
     box-shadow: -2px 2px 8px var(--box-shadow);
 }
