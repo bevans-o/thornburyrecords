@@ -32,6 +32,10 @@
         </div>
     </header>
 
+    <div class="mobile relative">
+        <div class="mobile-head-small"></div>
+    </div>
+
     <div class="cart-margin">
         <div class="shopping-cart">
             <div class="relative">
@@ -57,9 +61,9 @@
                 </div>
             </div>
         </div>
-        <img class="spacer-large" src="../images/divider.svg" alt="">
+        <img class="spacer-large desktop" src="../images/divider.svg" alt="">
         <div class="cart-footer flex-row flex-center">
-            <div>
+            <div class="desktop">
                 <div><h3 class="small-title yellow alt">More you might like</h3></div>
                 <div id="cart-more-products" class="more-products flex-row flex-center">
                     <div class="stacked">
@@ -77,15 +81,20 @@
                 </div>
             </div>
             <div class="cart-end flex-column">
-                <h3 class="small-title yellow alt right-align">Coupon or Gift Code</h3>
-                <input class="coupon-input" type="text">
+                <div class="flex-column coupon">
+                    <h3 class="small-title yellow alt right-align">Coupon or Gift Code</h3>
+                    <input class="coupon-input" type="text">
+                </div>
+                
                 <img class="spacer-small" src="../images/divider.svg" alt="">
-                <table>
-                    <tr><td><h3 class="alt right-align column-space">Subtotal:</h3></td><td><h3 class="alt yellow right-align">$45.00</h3></td></tr>
-                    <tr><td><h3 class="alt right-align column-space">Shipping:</h3></td><td><h3 class="alt yellow right-align">$8.95</h3></td></tr>
-                    <tr><td><h3 class="alt right-align column-space">Total:</h3></td><td><h2 class="alt yellow cart-total right-align">$53.95</h2></td></tr>
-                </table>
-                <a href="checkout.html"><button class="right-align">proceed to checkout</button></a>
+                <div class="flex-column">
+                    <table>
+                        <tr><td><h3 class="alt right-align column-space">Subtotal:</h3></td><td><h3 class="alt yellow right-align">$45.00</h3></td></tr>
+                        <tr><td><h3 class="alt right-align column-space">Shipping:</h3></td><td><h3 class="alt yellow right-align">$8.95</h3></td></tr>
+                        <tr><td><h3 class="alt right-align column-space">Total:</h3></td><td><h2 class="alt yellow cart-total right-align">$53.95</h2></td></tr>
+                    </table>
+                </div>
+                <a class="back-to-top flex-column flex-center" href="checkout.html"><button class="right-align">proceed to checkout</button></a>
             </div>
         </div>
     </div>

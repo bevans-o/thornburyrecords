@@ -341,7 +341,7 @@
 
     /* SHOPPING CART */
     .cart-margin {
-        margin: 6.5rem 3.06rem;
+        margin: 7rem 3.06rem;
     }
 
     .cart-title {
@@ -349,10 +349,88 @@
     }
 
     .cart-image {
-        width: 12vw;
+        width: 20vw;
+        margin-left: 0;
+        max-width: 190px;
     }
 
+    .product-small-text {
+        padding-left: 14px;
+        max-width: unset;
+    }
 
+    .product-small-text .med-sub {
+        word-break: normal;
+        font-size: 9pt;
+    }
+
+    .med-title {
+        font-size: 14pt;
+    }
+
+    .product-counter img {
+        width: 16px;
+        margin: 8px;
+    }
+
+    .cart-price {
+        padding: 0;
+        font-size: 12pt;
+    }
+
+    .remove {
+        margin: 0;
+        margin-left: 5px;
+        width: 27px;
+    }
+
+    .checkout-end h2, .cart-end h2 {
+        font-size: 18pt;
+    }
+
+    .checkout-end h3, .cart-end h3 {
+        font-size: 10.5pt;
+    }
+
+    .cart-end {
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    .cart-end button {
+        width: 75vw;
+        margin-right: 0;
+        margin-bottom: 5rem;
+    }
+
+    .cart-end table {
+        margin-top: 1rem;
+        margin-bottom: 22vh;
+    }
+
+    .cart-end .back-to-top {
+        width: 100%;
+    }
+
+    .coupon-input {
+        width: 60vw;
+        height: 26px;
+        max-width: 300px;;
+    }
+
+    .coupon {
+        margin-top: 2.6rem;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .spacer-small {
+        margin-top: 1.625rem;
+        max-width: 40vw;
+    }
+
+    
 
 
 
