@@ -28,8 +28,8 @@ button:hover {
 
 .chisel {
     position: absolute;
-    width: 640px;
-    height: 190px;
+    width: 103%;
+    height: 80%;
     left: -30px;
     border-radius: 13px;
     z-index: -1;
