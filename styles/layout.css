@@ -453,13 +453,13 @@ footer > img {
     margin-bottom: 55px;
 }
 
-#stock-check {
+.stock-check {
     right: 0rem;
     bottom: 0.8rem;
     width: 20px;
 }
 
-#stock-text {
+.stock-text {
     right: 2rem;
     bottom: 0.3rem;
 }

@@ -7,17 +7,8 @@
         display: block;
     }
 
-
-
-
-    /* TYPE SCALING */
-    footer p {
+    body {
         font-size: 10pt;
-    }
-
-    .splash-title {
-        font-size: 10pt;
-        line-height: normal;
     }
 
 
@@ -49,6 +40,7 @@
         max-width: 30px;
         padding-top: 0;
         padding-bottom: 20px;
+        max-height: 150px;
         
     }
     
@@ -59,6 +51,10 @@
         padding-left: 0;
         padding-bottom: 0px;
         margin-bottom: 30px;
+    }
+
+    footer p {
+        font-size: 10pt;
     }
 
     footer {
@@ -144,10 +140,117 @@
         width: inherit;
     }
 
+    .splash-title {
+        font-size: 10pt;
+        line-height: normal;
+    }
 
 
 
+
+
+
+    /* PRODUCT LISTING */
+    .product-image {
+        width: 100%;
+        padding: 0;
+        background-image: url(../images/frahm-solo.jpg);
+        background-attachment: fixed;
+        background-position: top;
+        min-height: 100vw;
+        background-size:contain;
+        box-shadow: inset 0px -10px 15px 0px var(--box-shadow);
+    }
+
+    .product-details {
+        margin: 0 12%;
+        padding: 0;
+        background-color: var(--background);
+        z-index: 1;
+        margin-bottom: 13vw;
+    }
+
+    .add-cart-button {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        transform: translateY(-50%);
+    }
+
+    .add-cart-button button {
+        width: 93%;
+        margin: 0;
+        padding: 0.5rem 0;
+    }
+
+    .product-details h1 {
+        height: 2.8rem;
+        margin-top: 2.8rem;
+    }
     
+    .large-title {
+        font-size: 35pt;
+    }
+    
+    .large-sub {
+        font-size: 15pt;
+    }
+
+    .large-price {
+        font-size: 20pt;
+    }
+
+    .product-price {
+        padding-bottom: 1.6rem;
+    }
+
+    .stock-text {
+        font-size: 13pt;
+        right: 1.6rem;
+        bottom: 0;
+    }
+
+    .stock-check {
+        bottom: 0.1rem;
+    }
+
+    .product-description {
+        margin-top: 1.5rem;
+    }
+
+    .more-products {
+        justify-content: space-around;
+    }
+
+    .more-products .stacked img {
+        width: 25vw;
+        max-width: 10rem;
+    }
+
+    .read-more {
+        font-size: 10pt;
+    }
+
+    .med-sub {
+        font-size: 10pt;
+        word-break: break-all;
+    }
+
+    .small-title {
+        font-size: 15pt;
+    }
+
+    .back-to-top button {
+        width: 93%;
+        margin: 2rem 0;
+        padding: 0.5rem 0;
+        text-align: center;
+    }
+
+
+
+
+
 
 
     /* CHECKOUT */
@@ -179,7 +282,6 @@
     #continue-wo-signin {
         margin-left:15px;
     }
-
 
 
 
