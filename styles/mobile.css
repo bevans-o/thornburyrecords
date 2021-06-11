@@ -130,20 +130,126 @@
     }
 
     .home-margin {
-        width: 100vw;
+        width: 80vw;
         margin-top: 280px;
-        margin-left: 8.5%;
-        margin-right: 8.5%;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
     }
 
     .splash-left {
-        width: inherit;
+        align-items: center;
+        width: unset;
     }
 
     .splash-title {
-        font-size: 10pt;
+        font-size: 9pt;
         line-height: normal;
+        text-align: center;
+        margin-bottom: 0.625rem;
     }
+
+    .splash-search {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-med {
+        width: 65vw;
+        max-width: 400px;
+        height: 1.625rem;
+        padding: 0 0.5rem;
+        margin-bottom: 2.3125rem;
+    }
+
+    .product-small {
+        width: 80vw;
+        max-width: 600px;
+        font-size: 8pt;
+    }
+
+    .product-small img {
+        width: 30vw;
+        height: 30vw;
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .album-small {
+        font-size: 11pt;
+    }
+
+    .home-mid {
+        flex-direction: column;
+    }
+
+    .sales-bundles {
+        margin-top: 3.125rem;
+    }
+
+    .sales-bundles .product-small-text {
+        padding-left: 1.5rem;
+    }
+
+    .secondary {
+        left: 10px;
+        top: 10px;
+    }
+
+    .featured .splash-title {
+        text-align: left;
+        font-size: 15pt;
+    }
+
+    .hot-today {
+        padding-bottom: 2.625rem;
+    }
+
+    .mobile-browse {
+        padding-bottom: 4rem;
+    }
+
+    /* GALLERIES */
+    .gallery {
+        padding-top: 21px;
+        display: grid;
+        column-gap: 3vw;
+        row-gap: 3vw;
+        grid-auto-flow: dense;
+    }
+
+    .gallery-album {
+        height: unset;
+    }
+    
+    .obscurities .gallery {
+        grid-template-columns: repeat(3, 25vw);
+        grid-template-rows: 25vw 25vw;
+    }
+    
+    .hot-today .gallery {
+        grid-template-columns: repeat(3, 25vw);
+        grid-template-rows: repeat(3, 25vw);
+    }
+    
+    .gallery-album img {
+        width: 100%;
+        height: 100%;
+        border-radius: 13px;
+    }
+
+    .double {
+        height: 100%;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    
+    
 
 
 

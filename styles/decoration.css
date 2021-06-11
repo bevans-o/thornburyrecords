@@ -88,9 +88,9 @@ button:hover {
     transition: ease 0.5s;
 }
 
-.gallery-album:hover img {
-    filter: brightness(1.1);
-    filter: contrast(1.1);
+.gallery-album:hover img, .gallery-album:active img {
+    filter: brightness(1.15);
+    filter: contrast(1.2);
     transition: ease 0.4s;
 }
 
