@@ -150,6 +150,94 @@
 
 
 
+    /* SEARCH RESULTS */
+    .search-margin {
+        margin: 2.75rem 0;
+    }
+
+    .search-results {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        row-gap: 27px;
+        padding-top: 1rem;
+    }
+
+    .search-results .stacked {
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        width: 300px;
+    }
+
+    .search-results .stacked img {
+        width: 100px;
+        margin: 0;
+    }
+
+    .search-results .stacked h3 {
+        position: absolute;
+        width: auto;
+        left: 110px;
+        top: 20px;
+        font-size: 10.5pt;
+    }
+
+    .search-results .stacked .small-price {
+        position: static;
+    }
+
+    .search-results .stacked h4 {
+        position: absolute;
+        width: auto;
+        left: 110px;
+        top: 34px;
+        font-size: 7pt;
+    }
+
+    .search-results .stacked p {
+        position: absolute;
+        width: 150px;
+        left: 110px;
+        bottom: 20px;
+        font-size: 6pt;
+    }
+
+    .search-results .stacked .chisel {
+        left: -9%;
+        top: -7.5%;
+    }
+
+    @media (min-width: 950px) {
+        .search-results {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 8vw;
+        }
+    }
+
+    .search-icon {
+        left: 0;
+    }
+
+    .search-suggestions {
+        line-height: 8pt;
+        padding-left: 0;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .search-suggestions .read-more {
+        font-size: 7pt;
+        text-align: left;
+    }
+
+
+
+
+
+
     /* PRODUCT LISTING */
     .product-image {
         width: 100%;
@@ -245,6 +333,23 @@
         margin: 2rem 0;
         padding: 0.5rem 0;
         text-align: center;
+    }
+
+
+
+
+
+    /* SHOPPING CART */
+    .cart-margin {
+        margin: 6.5rem 3.06rem;
+    }
+
+    .cart-title {
+        font-size: 14pt;
+    }
+
+    .cart-image {
+        width: 12vw;
     }
 
 

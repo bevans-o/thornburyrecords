@@ -353,13 +353,19 @@ footer > img {
 
 
 /* SEARCH RESULTS */
+.search-margin {
+    margin-top: 180px;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+}
+
 .search-top {
     width: 60%;
 }
 
 .search-icon {
     position: absolute;
-    left: 1rem;
+    left: 1.5rem;
     top: 30%;
 }
 
@@ -387,6 +393,16 @@ footer > img {
     margin-top: 7rem;
     margin-bottom: 6rem;
 }
+
+.search-suggestions {
+    padding-left: 1rem;
+}
+
+.search-suggestions .read-more {
+    font-size: 10pt;
+}
+
+
 
 
 
