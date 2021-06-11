@@ -208,6 +208,7 @@ footer > img {
     position: absolute;
     z-index: 0;
     width: 100%;
+    max-width: 500px;
 }
 
 .splash-background {
@@ -416,7 +417,7 @@ footer > img {
     position: fixed;
 }
 
-#gapfiller {
+.gapfiller {
     padding-top: 960px;
 }
 
@@ -499,7 +500,7 @@ footer > img {
     margin: 10px;
 }
 
-#down-ticker {
+.down-ticker {
     transform: rotate(180deg);
 }
 
@@ -571,7 +572,7 @@ footer > img {
     margin-right: 33px;
 }
 
-#cart-more-products {
+.cart-more-products {
     margin-bottom: 0;
 }
 
