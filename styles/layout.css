@@ -90,8 +90,9 @@ header {
 }
 
 .logo {
-    height: 45px;
+    height: 44px;
     padding-left: 30px;
+    padding-bottom: 8px;
 }
 
 footer {
