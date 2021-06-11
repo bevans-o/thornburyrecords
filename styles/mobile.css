@@ -45,15 +45,17 @@
     .header-right img {
         margin-left: 0;
         margin-right: 0;
-        width: 20px;
+        width: 6vw;
+        max-width: 30px;
         padding-top: 0;
         padding-bottom: 20px;
         
     }
     
     #logo {
-        height: 65px;
-        width: 65px;
+        height: 18vw;
+        width: 18vw;
+        max-width: 100px;
         padding-left: 0;
         padding-bottom: 0px;
         margin-bottom: 30px;
@@ -112,6 +114,16 @@
         width: 664px;
         height: 260px;
         background-image: url(../images/mobile-head-background.svg);
+    }
+
+    .mobile-head-small {
+        position: absolute;
+        top: -125px;
+        left: -218px;
+        width: 664px;
+        height: 260px;
+        background-image: url(../images/mobile-head-background.svg);
+        transform: scaleY(0.7)
     }
 
     .mobile-head + img {
@@ -173,30 +185,62 @@
 
 
 
-
+    
     /* CONFIRMATION */
+    body {
+        height: 100vh;
+    }
+
     .complete-margin {
         display: block;
         position: relative;
         width: auto;
-        margin-left: 3%;
-        margin-right: 6%;
+        margin-left: 5%;
+        margin-right: 7%;
         background-image: url(../images/check-large.svg);
         background-repeat: no-repeat;
-        background-size: 50vh;
-        background-position-x: 20vw;
+        background-size: 80vw;
+        background-position-x: 8vw;
         background-position-y: 10vh;
+        margin-top: 8rem;
     }
 
     .confirm-text {
         position: absolute;
+        top: 200px;
+    }
+
+    .confirm-text h1 {
+        font-size: 9vw;
+    }
+
+    .confirm-text h2 {
+        font-size: 6vw;
     }
 
     .confirm-cart {
         position: static;
         top: unset;
         left: unset;
-        max-width: 800px;
+        margin-left: 5vw;
+        margin-right: 6vw;
     }
 
+    .confirmed-item {
+        padding-right: 0;
+    }
+
+    .product-min-text h3 {
+        font-size: 3.5vw;
+    }
+    
+    .min-body {
+        font-size: 3vw;
+    }
+
+    .min-image {
+        width: 20vw;
+        height: 20vw;
+        max-width: 190px;
+    }
 }
