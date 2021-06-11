@@ -28,7 +28,7 @@
             <a href="../pages/cart.html"><img src="../images/cart.svg" alt="Cart"></a>
             <a class="desktop" href="../index.html"><img src="../images/account.svg" alt="Account"></a>
             <a href="../pages/search.html"><img src="../images/search-light.svg" alt="Search"></a>
-            <input class="desktop search-small" type="search">
+            <input class="desktop search-small" type="search" onkeypress="searchPage(event)">
         </div>
     </header>
 
@@ -44,7 +44,15 @@
             <div class = "splash-search">
                 <h1 class = "splash-title alt">Melbourne's home of <br class="desktop"> vinyl and turntable repair.</h1>
                 <h3 class = "desktop small-title semibold yellow">Search thousands of vinyl records.</h3>
-                <input class="search-med" type="search">
+                <input class="search-med" type="text" onkeypress="searchPage(event)">
+                <script>
+                    // go to search.html when enter is pressed in main page search bars
+                    function searchPage(key) {
+                        if (key.keyCode == 13) {
+                            window.location.href="pages/search.html"
+                        }
+                    }
+                </script>
             </div>
             <div class = "new-releases">
                 <h2 class="small-title alt">New Releases</h2>
@@ -104,29 +112,46 @@
                 <div class = "obscurities">
                     <h1 class = "splash-title right-align alt">Obscurities</h1>
                     <div class="gallery">
-                        <a href="../pages/product.html" class = "gallery-album double"><img class="shadow-subtle" src="../images/niquo-silent.jpg" alt="Nico Niquo - In A Silent Way"></a>
-                        <a href="../pages/product.html" class = "gallery-album"><img class="shadow-subtle" src="../images/jack-anatolia.jpg" alt="Feed Me Jack - Anatolia"></a>
-                        <a href="../pages/product.html" class = "desktop gallery-album"><img class="shadow-subtle" src="../images/kraus-path.jpg" alt="Kraus - Path"></a>
-                        <a href="../pages/product.html" class = "gallery-album"><img class="shadow-subtle" src="../images/wilsen-sleep.jpg" alt="Wilsen - I Go Missing In My Sleep"></a>
-                        <a href="../pages/product.html" class = "desktop gallery-album"><img class="shadow-subtle" src="../images/trees-church.jpg" alt="Lost in the Trees - A Church That Fits Our Needs"></a>
+                        <a href="../pages/product.html" id = "niquo-silent" class = "gallery-album double"><img class="shadow-subtle" src="../images/niquo-silent.jpg" alt="Nico Niquo - In A Silent Way">
+                        <span class="desktop tooltip">Nico Niquo - In a Silent Way</span></a>
+                        <a href="../pages/product.html" id = "jack-anatolia" class = "gallery-album"><img class="shadow-subtle" src="../images/jack-anatolia.jpg" alt="Feed Me Jack - Anatolia">
+                        <span class="desktop tooltip">Feed Me Jack - Anatolia</span></a>
+                        <a href="../pages/product.html" id = "kraus-path" class = "desktop gallery-album"><img class="shadow-subtle" src="../images/kraus-path.jpg" alt="Kraus - Path">
+                        <span class="desktop tooltip">Kraus - Path</span></a>
+                        <a href="../pages/product.html" id = "wilsen-sleep" class = "gallery-album"><img class="shadow-subtle" src="../images/wilsen-sleep.jpg" alt="Wilsen - I Go Missing In My Sleep">
+                        <span class="desktop tooltip">Wilsen - I Go Missing In My Sleep</span></a>
+                        <a href="../pages/product.html" id = "trees-church" class = "desktop gallery-album"><img class="shadow-subtle" src="../images/trees-church.jpg" alt="Lost in the Trees - A Church That Fits Our Needs">
+                        <span class="desktop tooltip">Lost in the Trees - A Church That Fits Our Needs</span></a>
                     </div>
                 </div>
             </div>
             <div class = "hot-today">
                 <h1 class = "splash-title alt">Hot Today</h1>
                 <div class="gallery">
-                    <a href="../pages/product.html" class = "gallery-album double"><img class="shadow-subtle" src="../images/adjuah-diaspora.jpg" alt="1. Christian Scott aTunde Adjuah - Diaspora"></a>
-                    <a href="../pages/product.html" class = "gallery-album"><img class="shadow-subtle" src="../images/beachhouse-teendream.jpg" alt="2. Beach House - Teen Dream"></a>
-                    <a href="../pages/product.html" class = "desktop gallery-album"><img class="shadow-subtle" src="../images/BBNG-III.jpg" alt="3. BADBADNOTGOOD - III"></a>
-                    <a href="../pages/product.html" class = "desktop gallery-album"><img class="shadow-subtle" src="../images/radiohead-amnesiac.jpg" alt="4. Radiohead - Amnesiac"></a>
-                    <a href="../pages/product.html" class = "desktop gallery-album double"><img class="shadow-subtle" src="../images/foxes-shore.jpeg" alt="5. Fleet Foxes - Shore"></a>
-                    <a href="../pages/product.html" class = "gallery-album"><img class="shadow-subtle" src="../images/clementine-fly.jpg" alt="6. Benjamin Clementine - I Tell A Fly"></a>
-                    <a href="../pages/product.html" class = "desktop gallery-album double"><img class="shadow-subtle" src="../images/jacklin-crushing.webp" alt="7. Julia Jacklin - Crushing"></a>
-                    <a href="../pages/product.html" class = "gallery-album"><img class="shadow-subtle" src="../images/arca-arca.jpg" alt="8. Arca - Arca"></a>
-                    <a href="../pages/product.html" class = "gallery-album"><img class="shadow-subtle" src="../images/radiohead-amsp.jpg" alt="9. Radiohead - A Moon Shaped Pool"></a>
-                    <a href="../pages/product.html" class = "gallery-album"><img class="shadow-subtle" src="../images/national-trouble.jpg" alt="10. The National - Trouble Will Find Me"></a>
-                    <a href="../pages/product.html" class = "desktop gallery-album"><img class="shadow-subtle" src="../images/florence-lungs.webp" alt="11. Florence and the Machine - Lungs"></a>
-                    <a href="../pages/product.html" class = "desktop gallery-album"><img class="shadow-subtle" src="../images/ukandanz-yeketelale.jpg" alt="12. Ukandanz - Yeketelale"></a> 
+                    <a href="../pages/product.html" id = "adjuah-diaspora" class = "gallery-album double"><img class="shadow-subtle" src="../images/adjuah-diaspora.jpg" alt="1. Christian Scott aTunde Adjuah - Diaspora">
+                    <span class="desktop tooltip">Christian aTunde Adjuah - Diaspora</span></a>
+                    <a href="../pages/product.html" id = "beachhouse-teendream" class = "gallery-album"><img class="shadow-subtle" src="../images/beachhouse-teendream.jpg" alt="2. Beach House - Teen Dream">
+                    <span class="desktop tooltip">Beach House - Teen Dream</span></a>
+                    <a href="../pages/product.html" id = "BBNG-III" class = "desktop gallery-album"><img class="shadow-subtle" src="../images/BBNG-III.jpg" alt="3. BADBADNOTGOOD - III">
+                    <span class="desktop tooltip">BADBADNOTGOOD - III</span></a>
+                    <a href="../pages/product.html" id = "radiohead-amnesiac" class = "desktop gallery-album"><img class="shadow-subtle" src="../images/radiohead-amnesiac.jpg" alt="4. Radiohead - Amnesiac">
+                    <span class="desktop tooltip">Radiohead - Amnesiac</span></a>
+                    <a href="../pages/product.html" id = "foxes-shore" class = "desktop gallery-album double"><img class="shadow-subtle" src="../images/foxes-shore.jpeg" alt="5. Fleet Foxes - Shore">
+                    <span class="desktop tooltip">Fleet Foxes - Shore</span></a>
+                    <a href="../pages/product.html" id = "clementine-fly" class = "gallery-album"><img class="shadow-subtle" src="../images/clementine-fly.jpg" alt="6. Benjamin Clementine - I Tell A Fly">
+                    <span class="desktop tooltip">Benjamin Clementine - I Tell A Fly</span></a>
+                    <a href="../pages/product.html" id = "jacklin-crushing" class = "desktop gallery-album double"><img class="shadow-subtle" src="../images/jacklin-crushing.webp" alt="7. Julia Jacklin - Crushing">
+                    <span class="desktop tooltip">Julia Jacklin - Crushing</span></a>
+                    <a href="../pages/product.html" id = "arca-arca" class = "gallery-album"><img class="shadow-subtle" src="../images/arca-arca.jpg" alt="8. Arca - Arca">
+                    <span class="desktop tooltip">Arca - Arca</span></a>
+                    <a href="../pages/product.html" id = "radiohead-amsp" class = "gallery-album"><img class="shadow-subtle" src="../images/radiohead-amsp.jpg" alt="9. Radiohead - A Moon Shaped Pool">
+                    <span class="desktop tooltip">Radiohead - A Moon Shaped Pool</span></a>
+                    <a href="../pages/product.html" id = "national-trouble" class = "gallery-album"><img class="shadow-subtle" src="../images/national-trouble.jpg" alt="10. The National - Trouble Will Find Me">
+                    <span class="desktop tooltip">The National - Trouble Will Find Me</span></a>
+                    <a href="../pages/product.html" id = "florence-lungs" class = "desktop gallery-album"><img class="shadow-subtle" src="../images/florence-lungs.webp" alt="11. Florence and the Machine - Lungs">
+                    <span class="desktop tooltip">Florence & the Machine - Lungs</span></a>
+                    <a href="../pages/product.html" id = "ukandanz-yeketelale" class = "desktop gallery-album"><img class="shadow-subtle" src="../images/ukandanz-yeketelale.jpg" alt="12. Ukandanz - Yeketelale">
+                    <span class="desktop tooltip">Ukandanz - Yeketelale</span></a> 
                 </div>
             </div>
             <a class="back-to-top flex-column flex-center mobile-browse b" href=""><button>browse all records</button></a>

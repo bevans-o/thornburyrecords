@@ -55,6 +55,30 @@ button:hover {
     transition: ease 0.1s;
 }
 
+.gallery-album {
+    position: relative;
+}
+
+.tooltip {
+    width: 110%;
+    left: 50%;
+    bottom: 10%;
+    opacity: 0.0;
+    position: absolute;
+    z-index: 8;
+    background-color: var(--accentW);
+    color: var(--background);
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+a:hover .tooltip {
+    opacity: 1.0;
+    transition: ease 0.3s;
+}
+
 
 
 
